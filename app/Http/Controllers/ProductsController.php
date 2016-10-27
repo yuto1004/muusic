@@ -6,7 +6,7 @@ use Illuminate\Http\Request;
 
 use App\Http\Requests;
 
-class ProductsController extends Controller
+class ProductsController extends RankingController
 {
     public function index()
     {

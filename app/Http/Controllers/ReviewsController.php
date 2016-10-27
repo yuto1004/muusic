@@ -8,7 +8,7 @@ use App\Http\Requests;
 use App\Product;
 use App\Review;
 
-class ReviewsController extends Controller
+class ReviewsController extends RankingController
 {
     public function create($id)
     {
