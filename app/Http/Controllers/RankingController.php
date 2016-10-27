@@ -8,5 +8,5 @@ use App\Http\Requests;
 
 class RankingController extends Controller
 {
-    // 処理
+    public $layout = "layouts.review_site";
 }
