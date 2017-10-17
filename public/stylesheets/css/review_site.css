@@ -894,7 +894,8 @@ Yahoo!Japan Movies CSS for PC
   color: #f2f4f8; }
 
 .color-gray-light {
-  color: #8b8e96; }
+  color: #8b8e96;
+  margin-right: 5px;}
 
 .bgcolor-gray-light, .graph-bar__active {
   background-color: #8b8e96;
