@@ -3,7 +3,8 @@
   <head>
     <meta charset="utf-8">
       <title>映画レビューサイト</title>
-      <link href='/stylesheets/review_site.css' rel='stylesheet' type='text/css'>
+      <link href="{{ asset('stylesheets/css/review_site.css')}}" rel='stylesheet' type='text/css'>
+      <link href="{{ asset('stylesheets/css/font-awesome.css')}}" rel='stylesheet' type='text/css'>
     </meta>
   </head>
   <body class="yj950-2">
@@ -26,7 +27,7 @@
         @yield('content')
         <aside class="section">
           <h4 class="text-small hr-bottom--thin no-space-bottom">
-            <i class="icon-crown color-gray-light"></i>投稿ランキング
+            <i class="fa fa-hand-o-up color-gray-light"></i>投稿ランキング
           </h4>
           <ul class="listview listview--condensed text-small">
             {{-- */$i = 1/* --}}
